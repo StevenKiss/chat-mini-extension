@@ -1,0 +1,16 @@
+{
+  "name": "chat-mini-extension",
+  "version": "1.0.0",
+  "description": "Super secret chatgpt extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chatgpt", "extension", "chat", "mini"],
+  "author": "Steven Kiss",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.329",
+    "typescript": "^5.8.3"
+  }
+}
