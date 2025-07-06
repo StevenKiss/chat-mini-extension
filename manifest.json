@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "Chat mini",
+    "version": "1.0",
+    "description": "Chatbot extension that allows one of chats for clarifying quesitons without cluttering the main chat"
+}
