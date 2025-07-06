@@ -4,13 +4,28 @@
   "description": "Super secret chatgpt extension",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["chatgpt", "extension", "chat", "mini"],
+  "keywords": [
+    "chatgpt",
+    "extension",
+    "chat",
+    "mini"
+  ],
   "author": "Steven Kiss",
   "license": "ISC",
   "devDependencies": {
     "@types/chrome": "^0.0.329",
-    "typescript": "^5.8.3"
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.2",
+    "vite-plugin-web-extension": "^4.4.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
